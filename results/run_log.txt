@@ -11,80 +11,80 @@ pace only 0.5 leave one project out done
      main        0.25            time split     507      0.314                               Paper: SVM on R1-R11   0.525    0.793              0.549      0.350      0.693            0.428
      main        0.25            time split     507      0.314             Assignment 1 winner: RF, planning-time   0.589    0.742              0.421      0.270      0.701            0.362
      main        0.25            time split     507      0.314 GB on R1-R11 only (same algorithm, paper features)   0.589    0.821              0.546      0.418      0.694            0.444
-     main        0.25            time split     507      0.314                             Ours: GB, all features   0.714    0.866              0.599      0.454      0.805            0.533
-     main        0.25            time split     507      0.314                             Ours: RF, all features   0.720    0.869              0.605      0.470      0.789            0.504
+     main        0.25            time split     507      0.314                             Mine: GB, all features   0.714    0.866              0.599      0.454      0.805            0.533
+     main        0.25            time split     507      0.314                             Mine: RF, all features   0.720    0.869              0.605      0.470      0.789            0.504
      main        0.25 leave one project out    1663      0.270                        % done so far (no learning)   0.515    0.823              0.518      0.298      0.678              NaN
      main        0.25 leave one project out    1663      0.270                               Paper: SVM on R1-R11   0.414    0.763              0.519      0.277      0.577            0.451
      main        0.25 leave one project out    1663      0.270             Assignment 1 winner: RF, planning-time   0.485    0.764              0.449      0.211      0.652            0.364
      main        0.25 leave one project out    1663      0.270 GB on R1-R11 only (same algorithm, paper features)   0.463    0.789              0.511      0.312      0.638            0.474
-     main        0.25 leave one project out    1663      0.270                             Ours: GB, all features   0.662    0.881              0.589      0.358      0.821            0.513
-     main        0.25 leave one project out    1663      0.270                             Ours: RF, all features   0.720    0.900              0.629      0.378      0.883            0.537
+     main        0.25 leave one project out    1663      0.270                             Mine: GB, all features   0.662    0.881              0.589      0.358      0.821            0.513
+     main        0.25 leave one project out    1663      0.270                             Mine: RF, all features   0.720    0.900              0.629      0.378      0.883            0.537
      main        0.50            time split     501      0.315                        % done so far (no learning)   0.656    0.876              0.668      0.478      0.773              NaN
      main        0.50            time split     501      0.315                               Paper: SVM on R1-R11   0.666    0.874              0.653      0.499      0.767            0.522
      main        0.50            time split     501      0.315             Assignment 1 winner: RF, planning-time   0.595    0.747              0.429      0.268      0.702            0.372
      main        0.50            time split     501      0.315 GB on R1-R11 only (same algorithm, paper features)   0.700    0.888              0.671      0.546      0.780            0.592
-     main        0.50            time split     501      0.315                             Ours: GB, all features   0.777    0.905              0.713      0.559      0.866            0.623
-     main        0.50            time split     501      0.315                             Ours: RF, all features   0.780    0.902              0.697      0.538      0.855            0.607
+     main        0.50            time split     501      0.315                             Mine: GB, all features   0.777    0.905              0.713      0.559      0.866            0.623
+     main        0.50            time split     501      0.315                             Mine: RF, all features   0.780    0.902              0.697      0.538      0.855            0.607
      main        0.50 leave one project out    1646      0.269                        % done so far (no learning)   0.684    0.913              0.695      0.444      0.829              NaN
      main        0.50 leave one project out    1646      0.269                               Paper: SVM on R1-R11   0.579    0.881              0.706      0.417      0.730            0.583
      main        0.50 leave one project out    1646      0.269             Assignment 1 winner: RF, planning-time   0.477    0.765              0.449      0.211      0.665            0.357
      main        0.50 leave one project out    1646      0.269 GB on R1-R11 only (same algorithm, paper features)   0.628    0.899              0.684      0.429      0.802            0.634
-     main        0.50 leave one project out    1646      0.269                             Ours: GB, all features   0.781    0.934              0.715      0.473      0.912            0.626
-     main        0.50 leave one project out    1646      0.269                             Ours: RF, all features   0.804    0.941              0.738      0.506      0.916            0.645
+     main        0.50 leave one project out    1646      0.269                             Mine: GB, all features   0.781    0.934              0.715      0.473      0.912            0.626
+     main        0.50 leave one project out    1646      0.269                             Mine: RF, all features   0.804    0.941              0.738      0.506      0.916            0.645
 pace only        0.25            time split     507      0.296                        % done so far (no learning)   0.558    0.834              0.558      0.442      0.641              NaN
 pace only        0.25            time split     507      0.296                               Paper: SVM on R1-R11   0.572    0.838              0.575      0.430      0.706            0.531
 pace only        0.25            time split     507      0.296             Assignment 1 winner: RF, planning-time   0.598    0.788              0.486      0.341      0.706            0.410
 pace only        0.25            time split     507      0.296 GB on R1-R11 only (same algorithm, paper features)   0.599    0.852              0.574      0.472      0.672            0.536
-pace only        0.25            time split     507      0.296                             Ours: GB, all features   0.735    0.899              0.661      0.596      0.805            0.600
-pace only        0.25            time split     507      0.296                             Ours: RF, all features   0.733    0.903              0.653      0.650      0.781            0.600
+pace only        0.25            time split     507      0.296                             Mine: GB, all features   0.735    0.899              0.661      0.596      0.805            0.600
+pace only        0.25            time split     507      0.296                             Mine: RF, all features   0.733    0.903              0.653      0.650      0.781            0.600
 pace only        0.25 leave one project out    1663      0.266                        % done so far (no learning)   0.538    0.845              0.538      0.336      0.688              NaN
 pace only        0.25 leave one project out    1663      0.266                               Paper: SVM on R1-R11   0.451    0.797              0.545      0.328      0.615            0.519
 pace only        0.25 leave one project out    1663      0.266             Assignment 1 winner: RF, planning-time   0.531    0.798              0.476      0.243      0.692            0.357
 pace only        0.25 leave one project out    1663      0.266 GB on R1-R11 only (same algorithm, paper features)   0.475    0.811              0.542      0.336      0.640            0.536
-pace only        0.25 leave one project out    1663      0.266                             Ours: GB, all features   0.761    0.919              0.642      0.498      0.880            0.621
-pace only        0.25 leave one project out    1663      0.266                             Ours: RF, all features   0.754    0.922              0.673      0.484      0.898            0.629
+pace only        0.25 leave one project out    1663      0.266                             Mine: GB, all features   0.761    0.919              0.642      0.498      0.880            0.621
+pace only        0.25 leave one project out    1663      0.266                             Mine: RF, all features   0.754    0.922              0.673      0.484      0.898            0.629
 pace only        0.50            time split     501      0.297                        % done so far (no learning)   0.693    0.906              0.695      0.577      0.771              NaN
 pace only        0.50            time split     501      0.297                               Paper: SVM on R1-R11   0.709    0.909              0.714      0.603      0.774            0.595
 pace only        0.50            time split     501      0.297             Assignment 1 winner: RF, planning-time   0.602    0.792              0.492      0.334      0.707            0.407
 pace only        0.50            time split     501      0.297 GB on R1-R11 only (same algorithm, paper features)   0.689    0.900              0.681      0.595      0.748            0.646
-pace only        0.50            time split     501      0.297                             Ours: GB, all features   0.816    0.932              0.739      0.712      0.882            0.662
-pace only        0.50            time split     501      0.297                             Ours: RF, all features   0.814    0.934              0.744      0.710      0.869            0.690
+pace only        0.50            time split     501      0.297                             Mine: GB, all features   0.816    0.932              0.739      0.712      0.882            0.662
+pace only        0.50            time split     501      0.297                             Mine: RF, all features   0.814    0.934              0.744      0.710      0.869            0.690
 pace only        0.50 leave one project out    1646      0.265                        % done so far (no learning)   0.725    0.931              0.726      0.538      0.838              NaN
 pace only        0.50 leave one project out    1646      0.265                               Paper: SVM on R1-R11   0.644    0.910              0.751      0.501      0.777            0.651
 pace only        0.50 leave one project out    1646      0.265             Assignment 1 winner: RF, planning-time   0.535    0.798              0.473      0.242      0.694            0.364
 pace only        0.50 leave one project out    1646      0.265 GB on R1-R11 only (same algorithm, paper features)   0.683    0.922              0.729      0.531      0.826            0.671
-pace only        0.50 leave one project out    1646      0.265                             Ours: GB, all features   0.848    0.958              0.795      0.649      0.916            0.682
-pace only        0.50 leave one project out    1646      0.265                             Ours: RF, all features   0.857    0.960              0.799      0.658      0.937            0.698
+pace only        0.50 leave one project out    1646      0.265                             Mine: GB, all features   0.848    0.958              0.795      0.649      0.916            0.682
+pace only        0.50 leave one project out    1646      0.265                             Mine: RF, all features   0.857    0.960              0.799      0.658      0.937            0.698
     label  checkpoint                 split  n_test  poor_rate                                                                      comparison  pr_auc_diff  ci_lo  ci_hi  ci_excludes_zero
-     main        0.25            time split     507      0.314                               Ours: GB, all features minus Paper: SVM on R1-R11        0.189  0.064  0.270              True
-     main        0.25            time split     507      0.314 Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.125  0.018  0.192              True
-     main        0.25            time split     507      0.314             Ours: GB, all features minus Assignment 1 winner: RF, planning-time        0.125  0.058  0.223              True
-     main        0.25            time split     507      0.314                        Ours: GB, all features minus % done so far (no learning)        0.182  0.061  0.246              True
-     main        0.25 leave one project out    1663      0.270                               Ours: GB, all features minus Paper: SVM on R1-R11        0.248  0.073  0.308              True
-     main        0.25 leave one project out    1663      0.270 Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.199  0.044  0.257              True
-     main        0.25 leave one project out    1663      0.270             Ours: GB, all features minus Assignment 1 winner: RF, planning-time        0.176  0.122  0.229              True
-     main        0.25 leave one project out    1663      0.270                        Ours: GB, all features minus % done so far (no learning)        0.147  0.049  0.203              True
-     main        0.50            time split     501      0.315                               Ours: GB, all features minus Paper: SVM on R1-R11        0.111 -0.009  0.178             False
-     main        0.50            time split     501      0.315 Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.077 -0.027  0.147             False
-     main        0.50            time split     501      0.315             Ours: GB, all features minus Assignment 1 winner: RF, planning-time        0.182  0.086  0.348              True
-     main        0.50            time split     501      0.315                        Ours: GB, all features minus % done so far (no learning)        0.121  0.012  0.205              True
-     main        0.50 leave one project out    1646      0.269                               Ours: GB, all features minus Paper: SVM on R1-R11        0.202  0.058  0.243              True
-     main        0.50 leave one project out    1646      0.269 Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.153  0.022  0.220              True
-     main        0.50 leave one project out    1646      0.269             Ours: GB, all features minus Assignment 1 winner: RF, planning-time        0.305  0.218  0.389              True
-     main        0.50 leave one project out    1646      0.269                        Ours: GB, all features minus % done so far (no learning)        0.098  0.023  0.144              True
-pace only        0.25            time split     507      0.296                               Ours: GB, all features minus Paper: SVM on R1-R11        0.163  0.065  0.249              True
-pace only        0.25            time split     507      0.296 Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.137  0.087  0.196              True
-pace only        0.25            time split     507      0.296             Ours: GB, all features minus Assignment 1 winner: RF, planning-time        0.137  0.096  0.297              True
-pace only        0.25            time split     507      0.296                        Ours: GB, all features minus % done so far (no learning)        0.177  0.104  0.248              True
-pace only        0.25 leave one project out    1663      0.266                               Ours: GB, all features minus Paper: SVM on R1-R11        0.309  0.164  0.365              True
-pace only        0.25 leave one project out    1663      0.266 Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.286  0.158  0.351              True
-pace only        0.25 leave one project out    1663      0.266             Ours: GB, all features minus Assignment 1 winner: RF, planning-time        0.230  0.173  0.300              True
-pace only        0.25 leave one project out    1663      0.266                        Ours: GB, all features minus % done so far (no learning)        0.222  0.147  0.277              True
-pace only        0.50            time split     501      0.297                               Ours: GB, all features minus Paper: SVM on R1-R11        0.107  0.031  0.169              True
-pace only        0.50            time split     501      0.297 Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.126  0.080  0.163              True
-pace only        0.50            time split     501      0.297             Ours: GB, all features minus Assignment 1 winner: RF, planning-time        0.214  0.165  0.415              True
-pace only        0.50            time split     501      0.297                        Ours: GB, all features minus % done so far (no learning)        0.122  0.034  0.201              True
-pace only        0.50 leave one project out    1646      0.265                               Ours: GB, all features minus Paper: SVM on R1-R11        0.204  0.113  0.238              True
-pace only        0.50 leave one project out    1646      0.265 Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.166  0.062  0.230              True
-pace only        0.50 leave one project out    1646      0.265             Ours: GB, all features minus Assignment 1 winner: RF, planning-time        0.313  0.214  0.456              True
-pace only        0.50 leave one project out    1646      0.265                        Ours: GB, all features minus % done so far (no learning)        0.123  0.070  0.161              True
+     main        0.25            time split     507      0.314                               Mine: GB, all features minus Paper: SVM on R1-R11        0.189  0.064  0.270              True
+     main        0.25            time split     507      0.314 Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.125  0.018  0.192              True
+     main        0.25            time split     507      0.314             Mine: GB, all features minus Assignment 1 winner: RF, planning-time        0.125  0.058  0.223              True
+     main        0.25            time split     507      0.314                        Mine: GB, all features minus % done so far (no learning)        0.182  0.061  0.246              True
+     main        0.25 leave one project out    1663      0.270                               Mine: GB, all features minus Paper: SVM on R1-R11        0.248  0.073  0.308              True
+     main        0.25 leave one project out    1663      0.270 Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.199  0.044  0.257              True
+     main        0.25 leave one project out    1663      0.270             Mine: GB, all features minus Assignment 1 winner: RF, planning-time        0.176  0.122  0.229              True
+     main        0.25 leave one project out    1663      0.270                        Mine: GB, all features minus % done so far (no learning)        0.147  0.049  0.203              True
+     main        0.50            time split     501      0.315                               Mine: GB, all features minus Paper: SVM on R1-R11        0.111 -0.009  0.178             False
+     main        0.50            time split     501      0.315 Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.077 -0.027  0.147             False
+     main        0.50            time split     501      0.315             Mine: GB, all features minus Assignment 1 winner: RF, planning-time        0.182  0.086  0.348              True
+     main        0.50            time split     501      0.315                        Mine: GB, all features minus % done so far (no learning)        0.121  0.012  0.205              True
+     main        0.50 leave one project out    1646      0.269                               Mine: GB, all features minus Paper: SVM on R1-R11        0.202  0.058  0.243              True
+     main        0.50 leave one project out    1646      0.269 Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.153  0.022  0.220              True
+     main        0.50 leave one project out    1646      0.269             Mine: GB, all features minus Assignment 1 winner: RF, planning-time        0.305  0.218  0.389              True
+     main        0.50 leave one project out    1646      0.269                        Mine: GB, all features minus % done so far (no learning)        0.098  0.023  0.144              True
+pace only        0.25            time split     507      0.296                               Mine: GB, all features minus Paper: SVM on R1-R11        0.163  0.065  0.249              True
+pace only        0.25            time split     507      0.296 Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.137  0.087  0.196              True
+pace only        0.25            time split     507      0.296             Mine: GB, all features minus Assignment 1 winner: RF, planning-time        0.137  0.096  0.297              True
+pace only        0.25            time split     507      0.296                        Mine: GB, all features minus % done so far (no learning)        0.177  0.104  0.248              True
+pace only        0.25 leave one project out    1663      0.266                               Mine: GB, all features minus Paper: SVM on R1-R11        0.309  0.164  0.365              True
+pace only        0.25 leave one project out    1663      0.266 Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.286  0.158  0.351              True
+pace only        0.25 leave one project out    1663      0.266             Mine: GB, all features minus Assignment 1 winner: RF, planning-time        0.230  0.173  0.300              True
+pace only        0.25 leave one project out    1663      0.266                        Mine: GB, all features minus % done so far (no learning)        0.222  0.147  0.277              True
+pace only        0.50            time split     501      0.297                               Mine: GB, all features minus Paper: SVM on R1-R11        0.107  0.031  0.169              True
+pace only        0.50            time split     501      0.297 Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.126  0.080  0.163              True
+pace only        0.50            time split     501      0.297             Mine: GB, all features minus Assignment 1 winner: RF, planning-time        0.214  0.165  0.415              True
+pace only        0.50            time split     501      0.297                        Mine: GB, all features minus % done so far (no learning)        0.122  0.034  0.201              True
+pace only        0.50 leave one project out    1646      0.265                               Mine: GB, all features minus Paper: SVM on R1-R11        0.204  0.113  0.238              True
+pace only        0.50 leave one project out    1646      0.265 Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)        0.166  0.062  0.230              True
+pace only        0.50 leave one project out    1646      0.265             Mine: GB, all features minus Assignment 1 winner: RF, planning-time        0.313  0.214  0.456              True
+pace only        0.50 leave one project out    1646      0.265                        Mine: GB, all features minus % done so far (no learning)        0.123  0.070  0.161              True

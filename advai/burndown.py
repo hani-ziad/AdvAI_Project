@@ -1,13 +1,13 @@
 """Rebuild a day-by-day burndown for every TAWOS sprint.
 
-The paper we critique (Perez Castillo et al., Information 2024) reads its
+The paper I critique (Perez Castillo et al., Information 2024) reads its
 features off the Worki burndown chart and the "completed vs not completed"
-chart. TAWOS has no such charts, but our Phase 1-3 code can rebuild the sprint
+chart. TAWOS has no such charts, but my Phase 1-3 code can rebuild the sprint
 membership and the resolution state of every issue at any moment from the Jira
 change log. This script does that once per day of each sprint and writes one
 row per (sprint, day) to data/burndown_daily.csv.
 
-Copied from our paper critique (github.com/hani-ziad/AdvAI_critique). It uses
+Copied from my paper critique (github.com/hani-ziad/AdvAI_critique). It uses
 the reconstruction code of the pipeline copied in ../pipeline.
 
 Only issue counts are used. Story points are missing for many TAWOS issues and

@@ -1,13 +1,13 @@
-"""Copied from our paper critique (github.com/hani-ziad/AdvAI_critique).
+"""Copied from my paper critique (github.com/hani-ziad/AdvAI_critique).
 
-Our TAWOS versions of the paper's R1-R11 features and of its 4-level TAG.
+My TAWOS versions of the paper's R1-R11 features and of its 4-level TAG.
 
 The paper (Table 1) defines R1-R11 in words only and does not give the
-thresholds behind "significant" or "excessive". The rules below are our
-reading of those words, written down before we looked at any model result.
+thresholds behind "significant" or "excessive". The rules below are my
+reading of those words, written down before I looked at any model result.
 They work on issue counts, because TAWOS has no hours.
 
-Per day k of a sprint we have scope (issues in the sprint), done (of those,
+Per day k of a sprint there is scope (issues in the sprint), done (of those,
 resolved) and remaining = scope - done. With n = planned length in days and
 ideal = issues committed on day 0 / n:
 
@@ -23,8 +23,8 @@ ideal = issues committed on day 0 / n:
   R10 any significant increase?    remaining rose by at least max(1, 10% of day-0 scope) in one day
   R11 number of significant increases
 
-TAG (our stand-in for the expert label). The paper's expert judged pace and
-progress from the same two charts. We copy that idea with a fixed rule that
+TAG (my stand-in for the expert label). The paper's expert judged pace and
+progress from the same two charts. I copy that idea with a fixed rule that
 also reads the whole chart:
 
   pace  = mean over days of min(share done / share of time elapsed, 1)
@@ -33,12 +33,12 @@ also reads the whole chart:
           class proportions (26.5%, 18.1%, 30.3%, 25.0%), with the cut points
           fitted on the training sprints only.
 
-A second label, "pace only", cuts the pace term alone. We use it as a
-sensitivity check, because our main label contains the final completion share
+A second label, "pace only", cuts the pace term alone. I use it as a
+sensitivity check, because my main label contains the final completion share
 and so leans on R1 by construction.
 
-So in our data the label is a known function of the chart. That is the point:
-it lets us see how much of a high score is just the model re-reading the chart.
+So in my data the label is a known function of the chart. That is the point:
+it shows how much of a high score is just the model re-reading the chart.
 """
 from __future__ import annotations
 
@@ -121,7 +121,7 @@ def build_table(daily: pd.DataFrame, upto_frac: float = 1.0) -> pd.DataFrame:
 def add_tag(table: pd.DataFrame, column: str = "score") -> tuple[pd.DataFrame, np.ndarray]:
     """Cut a score into 4 classes at the paper's proportions, fitted on training sprints.
 
-    column="score" is our main TAG. column="pace" is a sensitivity check that
+    column="score" is my main TAG. column="pace" is a sensitivity check that
     leaves the end-of-sprint completion out of the label, so R1 is less
     directly tied to it.
     """

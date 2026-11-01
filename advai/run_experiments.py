@@ -1,4 +1,4 @@
-"""Early warning of Poor sprints: our model vs the paper's method vs Assignment 1.
+"""Early warning of Poor sprints: my model vs the paper's method vs Assignment 1.
 
 Follows report/plan.md. For each label (main, pace-only), checkpoint (25%,
 50%) and split (time split, leave one project out) it scores every model on
@@ -65,10 +65,10 @@ MODELS = {
     "Paper: SVM on R1-R11": paper_svm(),
     "Assignment 1 winner: RF, planning-time": binary_and_4class("random_forest", LEGACY_NUMERIC),
     "GB on R1-R11 only (same algorithm, paper features)": binary_and_4class("gradient_boosting", R_COLS, with_project=False),
-    "Ours: GB, all features": binary_and_4class("gradient_boosting", OURS_NUMERIC),
-    "Ours: RF, all features": binary_and_4class("random_forest", OURS_NUMERIC),
+    "Mine: GB, all features": binary_and_4class("gradient_boosting", OURS_NUMERIC),
+    "Mine: RF, all features": binary_and_4class("random_forest", OURS_NUMERIC),
 }
-OURS = "Ours: GB, all features"
+OURS = "Mine: GB, all features"
 COMPARE = ["Paper: SVM on R1-R11", "GB on R1-R11 only (same algorithm, paper features)",
            "Assignment 1 winner: RF, planning-time", "% done so far (no learning)"]
 
@@ -85,7 +85,7 @@ def metrics(y, s):
 
 
 def cluster_boot(proj, y, scores: dict, rng):
-    """Resample projects with replacement; PR-AUC of each model and of ours minus each comparator."""
+    """Resample projects with replacement; PR-AUC of each model and of mine minus each comparator."""
     groups = {p: np.flatnonzero(proj == p) for p in np.unique(proj)}
     keys = list(groups)
     out = {k: [] for k in scores}
