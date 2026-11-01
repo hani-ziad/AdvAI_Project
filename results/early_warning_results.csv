@@ -1,0 +1,49 @@
+label,checkpoint,split,n_test,poor_rate,model,pr_auc,roc_auc,prec_at_80_recall,pr_auc_lo,pr_auc_hi,macro_f1_4class
+main,0.25,time split,507,0.314,% done so far (no learning),0.533,0.796,0.538,0.37,0.665,
+main,0.25,time split,507,0.314,Paper: SVM on R1-R11,0.525,0.793,0.549,0.35,0.693,0.428
+main,0.25,time split,507,0.314,"Assignment 1 winner: RF, planning-time",0.589,0.742,0.421,0.27,0.701,0.362
+main,0.25,time split,507,0.314,"GB on R1-R11 only (same algorithm, paper features)",0.589,0.821,0.546,0.418,0.694,0.444
+main,0.25,time split,507,0.314,"Ours: GB, all features",0.714,0.866,0.599,0.454,0.805,0.533
+main,0.25,time split,507,0.314,"Ours: RF, all features",0.72,0.869,0.605,0.47,0.789,0.504
+main,0.25,leave one project out,1663,0.27,% done so far (no learning),0.515,0.823,0.518,0.298,0.678,
+main,0.25,leave one project out,1663,0.27,Paper: SVM on R1-R11,0.414,0.763,0.519,0.277,0.577,0.451
+main,0.25,leave one project out,1663,0.27,"Assignment 1 winner: RF, planning-time",0.485,0.764,0.449,0.211,0.652,0.364
+main,0.25,leave one project out,1663,0.27,"GB on R1-R11 only (same algorithm, paper features)",0.463,0.789,0.511,0.312,0.638,0.474
+main,0.25,leave one project out,1663,0.27,"Ours: GB, all features",0.662,0.881,0.589,0.358,0.821,0.513
+main,0.25,leave one project out,1663,0.27,"Ours: RF, all features",0.72,0.9,0.629,0.378,0.883,0.537
+main,0.5,time split,501,0.315,% done so far (no learning),0.656,0.876,0.668,0.478,0.773,
+main,0.5,time split,501,0.315,Paper: SVM on R1-R11,0.666,0.874,0.653,0.499,0.767,0.522
+main,0.5,time split,501,0.315,"Assignment 1 winner: RF, planning-time",0.595,0.747,0.429,0.268,0.702,0.372
+main,0.5,time split,501,0.315,"GB on R1-R11 only (same algorithm, paper features)",0.7,0.888,0.671,0.546,0.78,0.592
+main,0.5,time split,501,0.315,"Ours: GB, all features",0.777,0.905,0.713,0.559,0.866,0.623
+main,0.5,time split,501,0.315,"Ours: RF, all features",0.78,0.902,0.697,0.538,0.855,0.607
+main,0.5,leave one project out,1646,0.269,% done so far (no learning),0.684,0.913,0.695,0.444,0.829,
+main,0.5,leave one project out,1646,0.269,Paper: SVM on R1-R11,0.579,0.881,0.706,0.417,0.73,0.583
+main,0.5,leave one project out,1646,0.269,"Assignment 1 winner: RF, planning-time",0.477,0.765,0.449,0.211,0.665,0.357
+main,0.5,leave one project out,1646,0.269,"GB on R1-R11 only (same algorithm, paper features)",0.628,0.899,0.684,0.429,0.802,0.634
+main,0.5,leave one project out,1646,0.269,"Ours: GB, all features",0.781,0.934,0.715,0.473,0.912,0.626
+main,0.5,leave one project out,1646,0.269,"Ours: RF, all features",0.804,0.941,0.738,0.506,0.916,0.645
+pace only,0.25,time split,507,0.296,% done so far (no learning),0.558,0.834,0.558,0.442,0.641,
+pace only,0.25,time split,507,0.296,Paper: SVM on R1-R11,0.572,0.838,0.575,0.43,0.706,0.531
+pace only,0.25,time split,507,0.296,"Assignment 1 winner: RF, planning-time",0.598,0.788,0.486,0.341,0.706,0.41
+pace only,0.25,time split,507,0.296,"GB on R1-R11 only (same algorithm, paper features)",0.599,0.852,0.574,0.472,0.672,0.536
+pace only,0.25,time split,507,0.296,"Ours: GB, all features",0.735,0.899,0.661,0.596,0.805,0.6
+pace only,0.25,time split,507,0.296,"Ours: RF, all features",0.733,0.903,0.653,0.65,0.781,0.6
+pace only,0.25,leave one project out,1663,0.266,% done so far (no learning),0.538,0.845,0.538,0.336,0.688,
+pace only,0.25,leave one project out,1663,0.266,Paper: SVM on R1-R11,0.451,0.797,0.545,0.328,0.615,0.519
+pace only,0.25,leave one project out,1663,0.266,"Assignment 1 winner: RF, planning-time",0.531,0.798,0.476,0.243,0.692,0.357
+pace only,0.25,leave one project out,1663,0.266,"GB on R1-R11 only (same algorithm, paper features)",0.475,0.811,0.542,0.336,0.64,0.536
+pace only,0.25,leave one project out,1663,0.266,"Ours: GB, all features",0.761,0.919,0.642,0.498,0.88,0.621
+pace only,0.25,leave one project out,1663,0.266,"Ours: RF, all features",0.754,0.922,0.673,0.484,0.898,0.629
+pace only,0.5,time split,501,0.297,% done so far (no learning),0.693,0.906,0.695,0.577,0.771,
+pace only,0.5,time split,501,0.297,Paper: SVM on R1-R11,0.709,0.909,0.714,0.603,0.774,0.595
+pace only,0.5,time split,501,0.297,"Assignment 1 winner: RF, planning-time",0.602,0.792,0.492,0.334,0.707,0.407
+pace only,0.5,time split,501,0.297,"GB on R1-R11 only (same algorithm, paper features)",0.689,0.9,0.681,0.595,0.748,0.646
+pace only,0.5,time split,501,0.297,"Ours: GB, all features",0.816,0.932,0.739,0.712,0.882,0.662
+pace only,0.5,time split,501,0.297,"Ours: RF, all features",0.814,0.934,0.744,0.71,0.869,0.69
+pace only,0.5,leave one project out,1646,0.265,% done so far (no learning),0.725,0.931,0.726,0.538,0.838,
+pace only,0.5,leave one project out,1646,0.265,Paper: SVM on R1-R11,0.644,0.91,0.751,0.501,0.777,0.651
+pace only,0.5,leave one project out,1646,0.265,"Assignment 1 winner: RF, planning-time",0.535,0.798,0.473,0.242,0.694,0.364
+pace only,0.5,leave one project out,1646,0.265,"GB on R1-R11 only (same algorithm, paper features)",0.683,0.922,0.729,0.531,0.826,0.671
+pace only,0.5,leave one project out,1646,0.265,"Ours: GB, all features",0.848,0.958,0.795,0.649,0.916,0.682
+pace only,0.5,leave one project out,1646,0.265,"Ours: RF, all features",0.857,0.96,0.799,0.658,0.937,0.698

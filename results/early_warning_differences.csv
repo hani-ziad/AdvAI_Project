@@ -1,0 +1,33 @@
+label,checkpoint,split,n_test,poor_rate,comparison,pr_auc_diff,ci_lo,ci_hi,ci_excludes_zero
+main,0.25,time split,507,0.314,"Ours: GB, all features minus Paper: SVM on R1-R11",0.189,0.064,0.27,True
+main,0.25,time split,507,0.314,"Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.125,0.018,0.192,True
+main,0.25,time split,507,0.314,"Ours: GB, all features minus Assignment 1 winner: RF, planning-time",0.125,0.058,0.223,True
+main,0.25,time split,507,0.314,"Ours: GB, all features minus % done so far (no learning)",0.182,0.061,0.246,True
+main,0.25,leave one project out,1663,0.27,"Ours: GB, all features minus Paper: SVM on R1-R11",0.248,0.073,0.308,True
+main,0.25,leave one project out,1663,0.27,"Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.199,0.044,0.257,True
+main,0.25,leave one project out,1663,0.27,"Ours: GB, all features minus Assignment 1 winner: RF, planning-time",0.176,0.122,0.229,True
+main,0.25,leave one project out,1663,0.27,"Ours: GB, all features minus % done so far (no learning)",0.147,0.049,0.203,True
+main,0.5,time split,501,0.315,"Ours: GB, all features minus Paper: SVM on R1-R11",0.111,-0.009,0.178,False
+main,0.5,time split,501,0.315,"Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.077,-0.027,0.147,False
+main,0.5,time split,501,0.315,"Ours: GB, all features minus Assignment 1 winner: RF, planning-time",0.182,0.086,0.348,True
+main,0.5,time split,501,0.315,"Ours: GB, all features minus % done so far (no learning)",0.121,0.012,0.205,True
+main,0.5,leave one project out,1646,0.269,"Ours: GB, all features minus Paper: SVM on R1-R11",0.202,0.058,0.243,True
+main,0.5,leave one project out,1646,0.269,"Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.153,0.022,0.22,True
+main,0.5,leave one project out,1646,0.269,"Ours: GB, all features minus Assignment 1 winner: RF, planning-time",0.305,0.218,0.389,True
+main,0.5,leave one project out,1646,0.269,"Ours: GB, all features minus % done so far (no learning)",0.098,0.023,0.144,True
+pace only,0.25,time split,507,0.296,"Ours: GB, all features minus Paper: SVM on R1-R11",0.163,0.065,0.249,True
+pace only,0.25,time split,507,0.296,"Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.137,0.087,0.196,True
+pace only,0.25,time split,507,0.296,"Ours: GB, all features minus Assignment 1 winner: RF, planning-time",0.137,0.096,0.297,True
+pace only,0.25,time split,507,0.296,"Ours: GB, all features minus % done so far (no learning)",0.177,0.104,0.248,True
+pace only,0.25,leave one project out,1663,0.266,"Ours: GB, all features minus Paper: SVM on R1-R11",0.309,0.164,0.365,True
+pace only,0.25,leave one project out,1663,0.266,"Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.286,0.158,0.351,True
+pace only,0.25,leave one project out,1663,0.266,"Ours: GB, all features minus Assignment 1 winner: RF, planning-time",0.23,0.173,0.3,True
+pace only,0.25,leave one project out,1663,0.266,"Ours: GB, all features minus % done so far (no learning)",0.222,0.147,0.277,True
+pace only,0.5,time split,501,0.297,"Ours: GB, all features minus Paper: SVM on R1-R11",0.107,0.031,0.169,True
+pace only,0.5,time split,501,0.297,"Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.126,0.08,0.163,True
+pace only,0.5,time split,501,0.297,"Ours: GB, all features minus Assignment 1 winner: RF, planning-time",0.214,0.165,0.415,True
+pace only,0.5,time split,501,0.297,"Ours: GB, all features minus % done so far (no learning)",0.122,0.034,0.201,True
+pace only,0.5,leave one project out,1646,0.265,"Ours: GB, all features minus Paper: SVM on R1-R11",0.204,0.113,0.238,True
+pace only,0.5,leave one project out,1646,0.265,"Ours: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.166,0.062,0.23,True
+pace only,0.5,leave one project out,1646,0.265,"Ours: GB, all features minus Assignment 1 winner: RF, planning-time",0.313,0.214,0.456,True
+pace only,0.5,leave one project out,1646,0.265,"Ours: GB, all features minus % done so far (no learning)",0.123,0.07,0.161,True
