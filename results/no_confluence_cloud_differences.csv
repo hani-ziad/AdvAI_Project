@@ -1,0 +1,65 @@
+version,label,checkpoint,split,n_test,poor_rate,comparison,pr_auc_diff,ci_lo,ci_hi,ci_excludes_zero
+refit grade,main,0.25,time split,449,0.403,"Mine: GB, all features minus Paper: SVM on R1-R11",0.081,0.015,0.135,True
+refit grade,main,0.25,time split,449,0.403,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.03,-0.013,0.083,False
+refit grade,main,0.25,time split,449,0.403,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.106,0.019,0.27,True
+refit grade,main,0.25,time split,449,0.403,"Mine: GB, all features minus % done so far (no learning)",0.081,0.021,0.133,True
+refit grade,main,0.25,leave one project out,1471,0.298,"Mine: GB, all features minus Paper: SVM on R1-R11",0.119,0.056,0.17,True
+refit grade,main,0.25,leave one project out,1471,0.298,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.102,0.059,0.15,True
+refit grade,main,0.25,leave one project out,1471,0.298,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.133,0.086,0.254,True
+refit grade,main,0.25,leave one project out,1471,0.298,"Mine: GB, all features minus % done so far (no learning)",0.045,0.003,0.123,True
+refit grade,main,0.5,time split,446,0.399,"Mine: GB, all features minus Paper: SVM on R1-R11",0.046,0.003,0.108,True
+refit grade,main,0.5,time split,446,0.399,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.012,-0.027,0.058,False
+refit grade,main,0.5,time split,446,0.399,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.187,0.105,0.362,True
+refit grade,main,0.5,time split,446,0.399,"Mine: GB, all features minus % done so far (no learning)",0.053,0.005,0.106,True
+refit grade,main,0.5,leave one project out,1460,0.295,"Mine: GB, all features minus Paper: SVM on R1-R11",0.068,0.01,0.156,True
+refit grade,main,0.5,leave one project out,1460,0.295,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.054,0.009,0.088,True
+refit grade,main,0.5,leave one project out,1460,0.295,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.249,0.163,0.415,True
+refit grade,main,0.5,leave one project out,1460,0.295,"Mine: GB, all features minus % done so far (no learning)",0.009,-0.027,0.096,False
+refit grade,pace only,0.25,time split,449,0.376,"Mine: GB, all features minus Paper: SVM on R1-R11",0.111,0.078,0.149,True
+refit grade,pace only,0.25,time split,449,0.376,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.116,0.085,0.159,True
+refit grade,pace only,0.25,time split,449,0.376,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.241,0.187,0.417,True
+refit grade,pace only,0.25,time split,449,0.376,"Mine: GB, all features minus % done so far (no learning)",0.133,0.092,0.173,True
+refit grade,pace only,0.25,leave one project out,1471,0.29,"Mine: GB, all features minus Paper: SVM on R1-R11",0.204,0.145,0.247,True
+refit grade,pace only,0.25,leave one project out,1471,0.29,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.17,0.113,0.217,True
+refit grade,pace only,0.25,leave one project out,1471,0.29,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.215,0.148,0.372,True
+refit grade,pace only,0.25,leave one project out,1471,0.29,"Mine: GB, all features minus % done so far (no learning)",0.125,0.083,0.18,True
+refit grade,pace only,0.5,time split,446,0.379,"Mine: GB, all features minus Paper: SVM on R1-R11",0.063,0.028,0.122,True
+refit grade,pace only,0.5,time split,446,0.379,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.019,-0.035,0.065,False
+refit grade,pace only,0.5,time split,446,0.379,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.308,0.237,0.524,True
+refit grade,pace only,0.5,time split,446,0.379,"Mine: GB, all features minus % done so far (no learning)",0.06,0.016,0.11,True
+refit grade,pace only,0.5,leave one project out,1460,0.288,"Mine: GB, all features minus Paper: SVM on R1-R11",0.104,0.053,0.18,True
+refit grade,pace only,0.5,leave one project out,1460,0.288,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.084,0.03,0.127,True
+refit grade,pace only,0.5,leave one project out,1460,0.288,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.358,0.266,0.556,True
+refit grade,pace only,0.5,leave one project out,1460,0.288,"Mine: GB, all features minus % done so far (no learning)",0.065,0.036,0.135,True
+same grade,main,0.25,time split,449,0.269,"Mine: GB, all features minus Paper: SVM on R1-R11",0.155,0.038,0.213,True
+same grade,main,0.25,time split,449,0.269,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.063,-0.033,0.108,False
+same grade,main,0.25,time split,449,0.269,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.124,0.086,0.259,True
+same grade,main,0.25,time split,449,0.269,"Mine: GB, all features minus % done so far (no learning)",0.138,0.025,0.192,True
+same grade,main,0.25,leave one project out,1471,0.206,"Mine: GB, all features minus Paper: SVM on R1-R11",0.13,0.043,0.17,True
+same grade,main,0.25,leave one project out,1471,0.206,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.128,0.045,0.162,True
+same grade,main,0.25,leave one project out,1471,0.206,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.115,0.056,0.215,True
+same grade,main,0.25,leave one project out,1471,0.206,"Mine: GB, all features minus % done so far (no learning)",0.064,0.031,0.106,True
+same grade,main,0.5,time split,446,0.271,"Mine: GB, all features minus Paper: SVM on R1-R11",0.049,-0.013,0.082,False
+same grade,main,0.5,time split,446,0.271,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.004,-0.068,0.045,False
+same grade,main,0.5,time split,446,0.271,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.181,0.092,0.407,True
+same grade,main,0.5,time split,446,0.271,"Mine: GB, all features minus % done so far (no learning)",0.07,-0.012,0.123,False
+same grade,main,0.5,leave one project out,1460,0.205,"Mine: GB, all features minus Paper: SVM on R1-R11",0.071,0.019,0.123,True
+same grade,main,0.5,leave one project out,1460,0.205,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.065,-0.016,0.091,False
+same grade,main,0.5,leave one project out,1460,0.205,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.219,0.134,0.376,True
+same grade,main,0.5,leave one project out,1460,0.205,"Mine: GB, all features minus % done so far (no learning)",-0.004,-0.023,0.048,False
+same grade,pace only,0.25,time split,449,0.256,"Mine: GB, all features minus Paper: SVM on R1-R11",0.141,0.022,0.239,True
+same grade,pace only,0.25,time split,449,0.256,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.099,0.001,0.205,True
+same grade,pace only,0.25,time split,449,0.256,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.136,0.075,0.311,True
+same grade,pace only,0.25,time split,449,0.256,"Mine: GB, all features minus % done so far (no learning)",0.129,0.026,0.23,True
+same grade,pace only,0.25,leave one project out,1471,0.204,"Mine: GB, all features minus Paper: SVM on R1-R11",0.259,0.177,0.277,True
+same grade,pace only,0.25,leave one project out,1471,0.204,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.255,0.177,0.284,True
+same grade,pace only,0.25,leave one project out,1471,0.204,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.208,0.163,0.307,True
+same grade,pace only,0.25,leave one project out,1471,0.204,"Mine: GB, all features minus % done so far (no learning)",0.186,0.151,0.21,True
+same grade,pace only,0.5,time split,446,0.258,"Mine: GB, all features minus Paper: SVM on R1-R11",0.056,-0.041,0.129,False
+same grade,pace only,0.5,time split,446,0.258,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.098,0.056,0.156,True
+same grade,pace only,0.5,time split,446,0.258,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.239,0.168,0.465,True
+same grade,pace only,0.5,time split,446,0.258,"Mine: GB, all features minus % done so far (no learning)",0.08,-0.017,0.185,False
+same grade,pace only,0.5,leave one project out,1460,0.203,"Mine: GB, all features minus Paper: SVM on R1-R11",0.181,0.113,0.213,True
+same grade,pace only,0.5,leave one project out,1460,0.203,"Mine: GB, all features minus GB on R1-R11 only (same algorithm, paper features)",0.163,0.052,0.204,True
+same grade,pace only,0.5,leave one project out,1460,0.203,"Mine: GB, all features minus Assignment 1 winner: RF, planning-time",0.318,0.26,0.484,True
+same grade,pace only,0.5,leave one project out,1460,0.203,"Mine: GB, all features minus % done so far (no learning)",0.11,0.062,0.149,True

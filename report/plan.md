@@ -37,3 +37,13 @@ Mine beats the paper's method at a checkpoint if the bootstrap interval of the P
 ## Change after the first run (1 Nov 2026)
 
 After the first run I noticed that "mine against the paper's method" changes two things at once, the algorithm and the features. So I added one control model, gradient boosting on R1 to R11 only, to show the gain from the extra features on its own. Nothing else in the plan changed, and the results of the original five models stayed the same.
+
+## Change after a data error was found (8 Nov 2026)
+
+While rechecking my paper critique I found that in Atlassian Confluence Cloud 59% of the closed sprint issues have no resolution date. Every other project is at or near 0%. The burndown reads "done" from the resolution date, so those sprints look unfinished and 76% of them are graded Poor. This affects the target and the R1-R11 features of that project, so the original results lean on a data error.
+
+I reran everything with that project left out (`advai/run_without_confluence_cloud.py`). Models, splits, seed and bootstrap are unchanged. The grade's cut points are refitted on the remaining training sprints ("refit grade"), and as a check I also kept the original labels and only dropped the rows ("same grade"). The 7-project refit-grade run is now the main result, and the original 8-project run stays in the repository and the README for comparison. I made this change before writing up and after seeing the first results, and the README says so.
+
+## Check added after the Software Engineering audit (8 Nov 2026)
+
+The audit of my Software Engineering paper showed that ranking scores pooled over projects can mostly reflect which project a sprint belongs to. I added `advai/audit_checks.py`, which rescores the main comparison inside each project and adds two no-learning rules ("issues still open" and "nothing finished yet"). Models, splits, grade and seed are unchanged, and the pooled PR-AUCs reproduce exactly. Within projects, on the time split, my model is not clearly better than "% done" or the paper's method. Across projects it keeps a small gain. The README now reports both. This analysis was added after seeing the results.

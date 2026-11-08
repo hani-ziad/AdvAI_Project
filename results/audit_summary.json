@@ -1,0 +1,8 @@
+{
+  "excluded_project": "Atlassian Confluence Cloud",
+  "grade": "refit",
+  "bootstrap_within": 1000,
+  "seed": 42,
+  "pooled_pr_auc_matches_saved_results": true,
+  "mismatches": []
+}

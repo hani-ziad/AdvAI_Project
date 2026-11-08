@@ -1,0 +1,36 @@
+{
+  "excluded_project": "Atlassian Confluence Cloud",
+  "rows": 2931,
+  "by_checkpoint": {
+    "0.25": 1471,
+    "0.5": 1460
+  },
+  "refit_cut_points": {
+    "main": [
+      0.2475,
+      0.3965,
+      0.6541
+    ],
+    "pace only": [
+      0.179,
+      0.3599,
+      0.65
+    ]
+  },
+  "poor_rate_refit": {
+    "0.25": {
+      "main": 0.298,
+      "pace only": 0.29
+    },
+    "0.5": {
+      "main": 0.295,
+      "pace only": 0.288
+    }
+  },
+  "share_of_kept_rows_whose_poor_flag_changed": {
+    "main": 0.091,
+    "pace only": 0.085
+  },
+  "bootstrap": 2000,
+  "seed": 42
+}
